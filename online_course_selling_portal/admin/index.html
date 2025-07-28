@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Education Platform</title>
+
+    <!-- Font Awesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+    <style>
+        /* Reset and base styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("img/admibg.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* Button styles */
+        .btn-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .btn {
+            background-color: #007bff;
+            color: #fff;
+            padding: 15px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero section starts -->
+    <section id="home">
+        <h2 style="color: #fff;">Enhance Your Future With Miraculous Galaxy</h2>
+        <p style="color: #fff;">All the skills you need in one place. From critical workplace skills to technical topics, our catalog supports well-rounded professional development.</p> <br><br><br><br><br>
+        <div class="btn-container">
+            <a href="dashboard.php" class="btn">Add Courses</a>
+            <a href="courses_table.php" class="btn">Courses</a>
+            <a href="user_details.php" class="btn">Users</a>
+            <a href="../index.php" class="btn">Logout</a>
+        </div>
+    </section>
+    <!-- Hero section ends -->
+</body>
+</html>
